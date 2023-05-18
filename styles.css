@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+.cabecalho__nav{
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    gap: 2rem;
+    
+}
