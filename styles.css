@@ -23,10 +23,6 @@ body{
 
 }
 
-.corpo{
-
-    margin-bottom: 8rem;
-}
 
 .cabecalho__nav{
     display: flex;
@@ -34,7 +30,7 @@ body{
     padding-top: 1rem;
     padding-bottom: 1.5rem;
     padding-left: 0.5rem;
-    gap: 2rem;
+    gap: 1rem;
     margin-bottom: 1.5rem;
     border: 2px solid var(--cor-da-fonte);
     background-color: var(--cor-da-borda);
@@ -60,6 +56,13 @@ body{
 
 }
 
+.corpo{
+
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+}
+
+
 .corpo__conteudo{
 
     display: flex;
@@ -76,7 +79,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
+    border: 0.1rem solid var(--cor-da-borda);
+    border-radius: 1rem;
 
     
 }
@@ -87,6 +92,7 @@ body{
     margin-left: 1.5rem;
     font-family: 'Raleway', sans-serif;
 
+
     
 }
 
@@ -95,12 +101,12 @@ body{
     display: flex;
     background-color: var(--cor-do-fundo2);
     border-top: 3px solid var(--cor-da-borda);
-    padding-bottom: 20%;
+    padding-bottom: 11%;
     flex-direction: column;
     font-family: 'Permanent Marker', cursive;
     align-items: center;
     gap: 1rem;
-    padding-top: 15%;
+    padding-top: 10%;
     
     
     
@@ -116,10 +122,7 @@ body{
    
 }
 
-#botao1{
 
-    
-}
 
 #botao2{
 
