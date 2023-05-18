@@ -21,6 +21,7 @@ body{
     color: var(--cor-da-fonte);
     background-color: var(--cor-do-fundo);
 
+
 }
 
 
@@ -30,7 +31,7 @@ body{
     padding-top: 1rem;
     padding-bottom: 1.5rem;
     padding-left: 0.5rem;
-    gap: 1rem;
+    gap: 2rem;
     margin-bottom: 1.5rem;
     border: 2px solid var(--cor-da-fonte);
     background-color: var(--cor-da-borda);
@@ -52,14 +53,13 @@ body{
     font-size: 1.5rem;
     color: var(--cor-da-fonte);
     
-
-
 }
 
 .corpo{
 
     margin-bottom: 8rem;
     margin-top: 2rem;
+    
 }
 
 
@@ -82,6 +82,8 @@ body{
     gap: 0.5rem;
     border: 0.1rem solid var(--cor-da-borda);
     border-radius: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
 
     
 }
@@ -89,7 +91,7 @@ body{
 .corpo__conteudo__pergunta__paragrafo{
 
     color: var(--cor-da-borda);
-    margin-left: 1.5rem;
+    margin-left: 1.0rem;
     font-family: 'Raleway', sans-serif;
 
 
@@ -107,6 +109,8 @@ body{
     align-items: center;
     gap: 1rem;
     padding-top: 10%;
+    margin-top: 50%;
+    
     
     
     
@@ -114,10 +118,14 @@ body{
 
 .rodape__link__botao{
 
+    display: flex;
     color: var(--cor-da-borda);
     border: 2px solid var(--cor-da-borda);
     padding: 1rem;
     border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;    
     
    
 }
@@ -129,6 +137,17 @@ body{
     padding:1.1rem; 
 }
 
+.rodape__link__icon{
+
+    width: 1.5rem;
+}
+
+.rodape__link__titulo{
+
+    color: var(--cor-da-borda);
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 2rem;
+}
 
 
 
